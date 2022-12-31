@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+
+
+
+:root{
+  --bg-color:#131722;
+  --main-font:'Montserrat Alternates', sans-serif;
+  --light-bg :#24baef;
+  --font-color :#fff;
+
+}
+body{
+  background-color: var(--bg-color);
+  font-family: var(--main-font);
+  color: var(--font-color);
+}
+a{
+  color: var(--font-color);
+  text-decoration: none;
+
+}
+.brd{
+  height: 1px;
+  background-color: #a8a8a83d;
+}
+.cursor-pointer{
+  cursor: pointer;
+}
+li{
+  padding-left: 10px;
+}
+Link:active {
+  background-color: rgb(0, 255, 4);
+}
+.my-input{
+  background-color: transparent;
+  border: solid 1px #a8a8a83d;
+  color: #fff;
+}
+.userProfile{
+height: 70vh;
+}
+.userProfile h4{
+  padding-bottom: 40px;
+}
+.vote{
+  background-color: var(--light-bg);
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 40px;
+}
+.offline{
+  position: fixed;
+  background-color: var(--bg-color);
+  box-shadow: 5px 5px 5px #ccc;
+  z-index: 9999;
+  left:30px;
+  padding: 10PX;
+  bottom: 30px;
+}
+.tagline{
+  font-size: 25px;
+}
+.gen{
+  background-color: #24baef;
+  border: 1px solid;
+  margin-left: 10px;
+  padding: 5px;
+  border-radius:10px ;
+}
+nav{
+  box-shadow: 2px 2px 2px 2px #ccc;
+} .me{
+  display: flex;
+  flex-direction: column; 
+  justify-content: space-around;
+  height: 80vh;
+  font-size: larger;
+}
+.iam{
+  border-radius: 20px;
+  width: 60px;
+}
+.page-error{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+
+  align-items: center;
+
+}
+.page-error p{
+  font-size: 30px;
+  border: 1px solid;
+  box-shadow: 5px 5px 5px 5px #ccc;
+  padding: 10px;
+
+}
